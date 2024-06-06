@@ -1,0 +1,64 @@
+body {
+  background-image: url("../imgs/imaginary-equation.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  filter: blur();
+}
+
+section.main {
+  background-color: rgba(229, 221, 221, 0.7);
+  height: 550px;
+}
+section.main .status {
+  height: 350px;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+section.main .icon-color {
+  color: black;
+}
+section.main div.link-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+section.main div.link-icon:hover {
+  /*display: block;*/
+  color: white;
+  background-color: blue;
+  display: flex;
+  gap: 10px;
+  width: 120px;
+  height: 50px;
+  padding: 10px;
+  justify-content: start;
+  align-items: center;
+  border-radius: 12px;
+}
+section.main div.link-icon:hover .icon-color, section.main div.link-icon:hover .link {
+  color: white;
+}
+section.main a.link {
+  text-decoration: none;
+  color: black;
+}
+
+.active{
+    color: white;
+    background-color: blue;
+    display: flex;
+    gap: 10px;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    justify-content: start;
+    align-items: center;
+    border-radius: 12px
+
+}
+
+section.main .list-of-todo {
+  height: 100%;
+  overflow-y: scroll;
+}/*# sourceMappingURL=style.css.map */

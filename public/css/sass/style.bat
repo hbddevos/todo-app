@@ -1,0 +1,1 @@
+sass --watch \sites\Blog\resources\css\sass\style.scss \sites\Blog\resources\css\style.css
